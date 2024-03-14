@@ -1,2 +1,2 @@
 # ESP8266-Pet-Feeding-System-with-Remote-Monitoring
-Pet owers can easily check food and water levels through a convenient mobile app interface, ensuring their pets are well-fed even when they're away.
+Introducing a DIY pet feeding system powered by the ESP8266 microcontroller and integrated with Blynk for remote monitoring. This system is designed for pet owners seeking to monitor their pets' food and water levels from anywhere .Pet owers can easily check food and water levels through a convenient mobile app interface, ensuring their pets are well-fed even when they're away.
