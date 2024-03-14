@@ -92,7 +92,7 @@ void loop() {
   digitalWrite(trigPin1, LOW);
   duration1 = pulseIn(echoPin1, HIGH);
   distance1 = (duration1 / 2) / 29.1; // Calculate distance in centimeters
-   Blynk.virtualWrite(V0, distance1); //uncomment 
+   Blynk.virtualWrite(V0, distance1);  
 
   // Second Ultrasonic Sensor for measuring the percentage of food level
   digitalWrite(trigPin2, LOW);
@@ -110,7 +110,7 @@ void loop() {
   Serial.print(" cm\tDistance Sensor 2: ");
   Serial.print(distance2);
   Serial.println(" cm");
-   Blynk.virtualWrite(V1, distance2); //uncomment 
+   Blynk.virtualWrite(V1, distance2); 
   for(int i=0;i<=100;i++){
     Blynk.virtualWrite(V0, i); 
     Blynk.virtualWrite(V1, i);
